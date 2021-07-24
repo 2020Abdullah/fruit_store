@@ -1,15 +1,16 @@
-## fruit store
+## fruit store project
 this Fruit project is a fruit shop frontage
 
 ## stack of technology
-1- html5
-2- css3
-3- js with jquery
-4- bootstrap
-5- fontasome
+* html5
+* css3
+* js with jquery
+* bootstrap
+* fontasome
 
 ## feature project
-1- website supporet Arabic 
-2- website supporet loading page
-3- Beautiful and unique design
-
+* website supporet Arabic 
+* website supporet loading page
+* Beautiful and unique design
+## project Live
+[https://2020abdullah.github.io/fruit_store/index.html]
