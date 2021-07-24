@@ -1,0 +1,240 @@
+/*
+======================
+ Template Arabic
+======================
+*/
+/****************** global-style ****************** */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap");
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.overlay img {
+  width: 100px;
+  height: 100px;
+  opacity: 0.1;
+  transition: all 0.5 ease-in-out; }
+
+body {
+  font-family: 'cairo' ,Arial, Helvetica, sans-serif;
+  transition: all 0.4s ease-in-out;
+  overflow: hidden; }
+
+.section, header .headbox, #offer, #our_fruit, #About_us, #latest_blog, #Testimonial, #contact_us, footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative; }
+
+.heading, header .headbox h3, #our_fruit h2, #latest_blog h2, #contact_us h2 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #333;
+  border-bottom: 5px solid #ffc107;
+  width: fit-content;
+  padding-bottom: 10px; }
+
+.offer-head, #offer .offer-large .offer-bx h2, #offer .offer-small-one .offer-box h2, #offer .offer-small-two .offer-box h2 {
+  font-size: 35px;
+  color: #fff;
+  font-weight: bold; }
+
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+/****************** header-style ****************** */
+header .logo {
+  font-size: 30px;
+  font-weight: bold; }
+header .nav-link {
+  text-transform: capitalize; }
+header .headbox:before {
+  content: "";
+  position: absolute;
+  background: #ebf3fa;
+  top: 0;
+  left: 0;
+  width: 450px;
+  height: 500px;
+  z-index: -1;
+  transform: translateY(-100px); }
+header .headbox a {
+  width: 200px; }
+header .headbox a:hover {
+  background-color: transparent;
+  color: #333; }
+
+/****************** offer-style ****************** */
+#offer .offer-large {
+  height: 100%;
+  min-height: 300px;
+  background: url("../images/o1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+  position: relative; }
+#offer .offer-large .offer-bx {
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+#offer .offer-small-one {
+  background: url("../images/o2.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 10px;
+  min-height: 200px;
+  position: relative; }
+#offer .offer-small-one .offer-box {
+  position: absolute;
+  top: 50%;
+  left: 10%; }
+#offer .offer-small-two {
+  background: url("../images/o3.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-bottom: 10px;
+  min-height: 200px;
+  position: relative; }
+#offer .offer-small-two .offer-box {
+  position: absolute;
+  top: 50%;
+  left: 10%; }
+
+/****************** our_fruit-style ****************** */
+#our_fruit {
+  transition: all 0.5 ease-in-out;
+  text-align: center; }
+#our_fruit h2 {
+  margin: 1.5rem auto; }
+#our_fruit .post-fruit {
+  background: #f3f3f3;
+  margin-bottom: 20px; }
+#our_fruit .post-fruit:hover {
+  content: "";
+  background-color: #58befa;
+  height: 100%;
+  width: 100%;
+  transform: scale(1.05); }
+#our_fruit .post-fruit img {
+  height: 150px; }
+#our_fruit .post-fruit i {
+  margin-top: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; }
+#our_fruit .post-fruit i:hover {
+  color: orange; }
+#our_fruit .post-fruit .checked {
+  color: orange; }
+#our_fruit .post-fruit span {
+  font-size: 20px;
+  margin-bottom: 1.5rem; }
+#our_fruit a {
+  width: 200px;
+  margin-top: 30px; }
+#our_fruit a:hover {
+  background-color: transparent;
+  border-color: #1e7e34;
+  color: #333; }
+
+/****************** About_us-style ****************** */
+#About_us {
+  background-color: #ebf3fa;
+  text-transform: capitalize; }
+#About_us .post-box {
+  padding: 50px; }
+#About_us .post-box h2 {
+  color: #333;
+  font-size: 30px; }
+#About_us .post-box p {
+  color: #636363;
+  font-size: 16px;
+  word-wrap: break-word; }
+#About_us .post-box a {
+  width: 200px;
+  color: #fff; }
+#About_us .post-box a:hover {
+  background-color: transparent;
+  color: #333; }
+
+/****************** latest_blog-style ****************** */
+#latest_blog h2 {
+  margin: 1.5rem auto; }
+#latest_blog .blog_img {
+  position: relative; }
+#latest_blog .blog_img span {
+  position: absolute;
+  bottom: -10px;
+  left: 30px;
+  border: 5px solid #fff;
+  background-color: #4e7f6a;
+  padding: 5px 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff; }
+#latest_blog .blog-info {
+  background-color: #4e7f6a;
+  padding: 10px 20px;
+  color: #fff !important;
+  padding-top: 30px; }
+
+/****************** Testimonial-style ****************** */
+#Testimonial {
+  background-color: #ebf3fa; }
+#Testimonial h2 {
+  font-weight: bold; }
+#Testimonial .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding: 50px; }
+#Testimonial .carousel-control-next, #Testimonial .carousel-control-prev {
+  width: 50px;
+  height: 50px;
+  background-color: #4e7f6a;
+  position: absolute;
+  top: 50%; }
+
+/****************** footer-style ****************** */
+#contact_us h2 {
+  margin: 1.5rem auto; }
+#contact_us .contact-box {
+  background-color: #ebf3fa;
+  padding: 50px;
+  height: 450px; }
+#contact_us .contact-box form input, #contact_us .contact-box form textarea {
+  margin-bottom: 1.5rem; }
+#contact_us .contact-box form textarea {
+  height: 100px;
+  resize: none; }
+
+/******************  footer-style ****************** */
+footer {
+  padding-bottom: 20px;
+  background-color: #4e7f6a; }
+footer .foot-info a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none; }
+footer .foot-info a i {
+  border: 1px solid #ffc107;
+  padding: 10px; }
+footer .foot-info a span {
+  font-size: 20px;
+  margin-left: 10px; }
+footer .foot-info:hover {
+  color: #ffc107; }
+footer hr {
+  border-color: #fff; }
+footer h3 {
+  font-size: 14px; }
+
+/*# sourceMappingURL=style-rtl.css.map */
